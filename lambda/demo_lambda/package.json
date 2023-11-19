@@ -1,0 +1,22 @@
+{
+  "name": "demo_lambda",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "dependencies": {
+    "aws-lambda": "^1.0.7",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.2",
+    "@types/aws-lambda": "^8.10.126",
+    "aws-cdk-lib": "^2.110.0",
+    "aws-sdk": "^2.1499.0"
+  }
+}
